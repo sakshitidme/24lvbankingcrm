@@ -1,0 +1,151 @@
+
+> 24lv-app-v2@0.1.0 dev
+> next dev --turbopack --port 53392 --hostname 0.0.0.0
+
+   ▲ Next.js 15.3.4 (Turbopack)
+   - Local:        http://localhost:53392
+   - Network:      http://0.0.0.0:53392
+   - Environments: .env.local, .env
+
+ ✓ Starting...
+ ✓ Ready in 1567ms
+ ○ Compiling /dashboard/forms ...
+ ✓ Compiled /dashboard/forms in 6.4s
+ GET /dashboard/forms 200 in 6968ms
+ ○ Compiling /api/auth/[...nextauth] ...
+ GET /placeholder-avatar.jpg 404 in 4054ms
+ ✓ Compiled /api/auth/[...nextauth] in 4.1s
+ GET /api/auth/session 200 in 5249ms
+Creating TRPC context: { NODE_ENV: 'development', MOCK_AUTH: 'true' }
+Using mock session
+Using mock data for forms.getAll
+ GET /api/trpc/form.getAll?batch=1&input=%7B%220%22%3A%7B%22json%22%3A%7B%22page%22%3A1%2C%22limit%22%3A100%7D%7D%7D 200 in 5311ms
+Creating TRPC context: { NODE_ENV: 'development', MOCK_AUTH: 'true' }
+Using mock session
+Using mock data for forms.create {
+  formName: 'Test Property Assessment Form',
+  fields: [],
+  isDefaultForm: false
+}
+ POST /api/trpc/form.create?batch=1 200 in 189ms
+Creating TRPC context: { NODE_ENV: 'development', MOCK_AUTH: 'true' }
+Using mock session
+Using mock data for forms.getAll
+ GET /api/trpc/form.getAll?batch=1&input=%7B%220%22%3A%7B%22json%22%3A%7B%22page%22%3A1%2C%22limit%22%3A100%7D%7D%7D 200 in 153ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 3s
+ GET /dashboard 200 in 3267ms
+ GET /api/auth/session 200 in 161ms
+Creating TRPC context: { NODE_ENV: 'development', MOCK_AUTH: 'true' }
+Using mock session
+Using mock data for request.getDashboardStats
+ GET /api/trpc/request.getDashboardStats?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D 200 in 204ms
+ GET /placeholder-avatar.jpg 404 in 285ms
+ ○ Compiling /dashboard/users ...
+ ✓ Compiled /dashboard/users in 3.4s
+ GET /dashboard/users 200 in 3444ms
+Creating TRPC context: { NODE_ENV: 'development', MOCK_AUTH: 'true' }
+Using mock session
+Using mock data for bank.getAll
+Using mock data for user.getAll
+ GET /api/trpc/user.getAll,bank.getAll?batch=1&input=%7B%220%22%3A%7B%22json%22%3A%7B%22page%22%3A1%2C%22limit%22%3A100%7D%7D%2C%221%22%3A%7B%22json%22%3A%7B%22page%22%3A1%2C%22limit%22%3A100%7D%7D%7D 200 in 160ms
+ GET /placeholder-avatar.jpg 404 in 73ms
+ GET /dashboard/users 200 in 220ms
+ GET /api/auth/session 200 in 196ms
+ GET /dashboard 200 in 221ms
+Creating TRPC context: { NODE_ENV: 'development', MOCK_AUTH: 'true' }
+Using mock session
+Using mock data for bank.getAll
+Using mock data for user.getAll
+ GET /api/trpc/user.getAll,bank.getAll?batch=1&input=%7B%220%22%3A%7B%22json%22%3A%7B%22page%22%3A1%2C%22limit%22%3A100%7D%7D%2C%221%22%3A%7B%22json%22%3A%7B%22page%22%3A1%2C%22limit%22%3A100%7D%7D%7D 200 in 281ms
+ GET /placeholder-avatar.jpg 404 in 303ms
+ GET /placeholder-avatar.jpg 404 in 146ms
+ GET /placeholder-avatar.jpg 404 in 119ms
+ GET /placeholder-avatar.jpg 404 in 140ms
+ GET /placeholder-avatar.jpg 404 in 156ms
+Creating TRPC context: { NODE_ENV: 'development', MOCK_AUTH: 'true' }
+Using mock session
+Using mock data for request.getDashboardStats
+ GET /api/trpc/request.getDashboardStats?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D 200 in 190ms
+ GET /dashboard/users 200 in 93ms
+ GET /placeholder-avatar.jpg 404 in 134ms
+ GET /placeholder-avatar.jpg 404 in 145ms
+ ○ Compiling /dashboard/banks ...
+ ✓ Compiled /dashboard/banks in 3.2s
+ GET /dashboard/banks 200 in 3298ms
+Creating TRPC context: { NODE_ENV: 'development', MOCK_AUTH: 'true' }
+Using mock session
+Using mock data for bank.getAll
+ GET /api/trpc/bank.getAll?batch=1&input=%7B%220%22%3A%7B%22json%22%3A%7B%22page%22%3A1%2C%22limit%22%3A100%7D%7D%7D 200 in 132ms
+ ○ Compiling /dashboard/requests ...
+ ✓ Compiled /dashboard/requests in 4.3s
+ GET /dashboard/requests 200 in 4376ms
+Creating TRPC context: { NODE_ENV: 'development', MOCK_AUTH: 'true' }
+Using mock session
+Using mock data for forms.getAll
+Using mock data for user.getAll
+❌ tRPC failed on request.getAll: 
+Invalid `ctx.db.request.findMany()` invocation in
+/workspace/24lv-deploy-23-7-2025/.next/server/chunks/[root-of-the-server]__333e9f38._.js:1944:28
+
+  1941     ];
+  1942 }
+  1943 const [requests, total] = await Promise.all([
+→ 1944     ctx.db.request.findMany(
+Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+ GET /api/trpc/request.getAll,form.getAll,user.getAll?batch=1&input=%7B%220%22%3A%7B%22json%22%3A%7B%22page%22%3A1%2C%22limit%22%3A100%7D%7D%2C%221%22%3A%7B%22json%22%3A%7B%22page%22%3A1%2C%22limit%22%3A100%7D%7D%2C%222%22%3A%7B%22json%22%3A%7B%22page%22%3A1%2C%22limit%22%3A100%7D%7D%7D 207 in 285ms
+Creating TRPC context: { NODE_ENV: 'development', MOCK_AUTH: 'true' }
+Using mock session
+❌ tRPC failed on request.getAll: 
+Invalid `ctx.db.request.findMany()` invocation in
+/workspace/24lv-deploy-23-7-2025/.next/server/chunks/[root-of-the-server]__333e9f38._.js:1944:28
+
+  1941     ];
+  1942 }
+  1943 const [requests, total] = await Promise.all([
+→ 1944     ctx.db.request.findMany(
+Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+ GET /api/trpc/request.getAll?batch=1&input=%7B%220%22%3A%7B%22json%22%3A%7B%22page%22%3A1%2C%22limit%22%3A100%7D%7D%7D 500 in 215ms
+Creating TRPC context: { NODE_ENV: 'development', MOCK_AUTH: 'true' }
+Using mock session
+❌ tRPC failed on request.getAll: 
+Invalid `ctx.db.request.findMany()` invocation in
+/workspace/24lv-deploy-23-7-2025/.next/server/chunks/[root-of-the-server]__333e9f38._.js:1944:28
+
+  1941     ];
+  1942 }
+  1943 const [requests, total] = await Promise.all([
+→ 1944     ctx.db.request.findMany(
+Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+ GET /api/trpc/request.getAll?batch=1&input=%7B%220%22%3A%7B%22json%22%3A%7B%22page%22%3A1%2C%22limit%22%3A100%7D%7D%7D 500 in 334ms
+Creating TRPC context: { NODE_ENV: 'development', MOCK_AUTH: 'true' }
+Using mock session
+❌ tRPC failed on request.getAll: 
+Invalid `ctx.db.request.findMany()` invocation in
+/workspace/24lv-deploy-23-7-2025/.next/server/chunks/[root-of-the-server]__333e9f38._.js:1944:28
+
+  1941     ];
+  1942 }
+  1943 const [requests, total] = await Promise.all([
+→ 1944     ctx.db.request.findMany(
+Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+ GET /api/trpc/request.getAll?batch=1&input=%7B%220%22%3A%7B%22json%22%3A%7B%22page%22%3A1%2C%22limit%22%3A100%7D%7D%7D 500 in 270ms
+ ○ Compiling /dashboard/settings ...
+ ✓ Compiled /dashboard/settings in 4.2s
+ GET /dashboard/settings 200 in 4214ms
+ GET /placeholder-avatar.jpg 404 in 147ms
+ GET /dashboard/forms 200 in 183ms
+ GET /api/auth/session 200 in 198ms
+Creating TRPC context: { NODE_ENV: 'development', MOCK_AUTH: 'true' }
+Using mock session
+Using mock data for forms.getAll
+ GET /api/trpc/form.getAll?batch=1&input=%7B%220%22%3A%7B%22json%22%3A%7B%22page%22%3A1%2C%22limit%22%3A100%7D%7D%7D 200 in 308ms
+ GET /placeholder-avatar.jpg 404 in 395ms

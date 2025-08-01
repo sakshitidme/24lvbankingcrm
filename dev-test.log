@@ -1,0 +1,885 @@
+
+> 24lv-app-v2@0.1.0 dev
+> next dev --turbopack
+
+   ▲ Next.js 15.3.4 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://172.17.0.3:3000
+   - Environments: .env.local, .env
+
+ ✓ Starting...
+ ✓ Ready in 4.9s
+ ○ Compiling / ...
+ ✓ Compiled / in 169.8s
+ GET / 200 in 267ms
+ ○ Compiling /api/auth/[...nextauth] ...
+ ✓ Compiled /api/auth/[...nextauth] in 2.7s
+ GET /api/auth/session 200 in 4558ms
+ ○ Compiling /auth/login ...
+ ✓ Compiled /auth/login in 4.7s
+ GET /auth/login 200 in 5019ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 93.6s
+ GET /dashboard 200 in 94749ms
+ GET /api/auth/session 200 in 333ms
+ ○ Compiling /_not-found/page ...
+ ✓ Compiled /_not-found/page in 4.3s
+ GET /placeholder-avatar.jpg 404 in 4429ms
+ ○ Compiling /dashboard/forms ...
+ ✓ Compiled /dashboard/forms in 4.9s
+ GET /dashboard/forms 200 in 5017ms
+ ○ Compiling /dashboard/settings ...
+ ✓ Compiled /dashboard/settings in 4.9s
+ GET /dashboard/settings 200 in 4979ms
+ GET /placeholder-avatar.jpg 404 in 271ms
+ GET /dashboard/settings 200 in 379ms
+ GET /api/auth/session 200 in 169ms
+ GET /placeholder-avatar.jpg 404 in 228ms
+ GET /dashboard/forms 200 in 239ms
+ GET /api/auth/session 200 in 202ms
+ GET /placeholder-avatar.jpg 404 in 331ms
+ ✓ Compiled in 701ms
+ ✓ Compiled in 495ms
+ GET /dashboard/forms 200 in 969ms
+ GET /api/auth/session 200 in 258ms
+ GET /placeholder-avatar.jpg 404 in 300ms
+ ✓ Compiled in 447ms
+ ✓ Compiled in 759ms
+ ✓ Compiled in 534ms
+ ✓ Compiled in 350ms
+ ✓ Compiled in 527ms
+ ⨯ ./src/app/dashboard/forms/page.tsx
+Module not found: Can't resolve './components/FormBuilderDialog'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx:12:41
+Module not found: Can't resolve './components/FormBuilderDialog'
+[0m [90m 10 |[39m[0m
+[0m [90m 11 |[39m [90m// Dynamic imports for better performance[39m[0m
+[0m[31m[1m>[22m[39m[90m 12 |[39m [36mconst[39m [33mFormBuilderDialog[39m [33m=[39m dynamic(() [33m=>[39m [36mimport[39m([32m'./components/FormBuilderDialog'[39m)[33m,[39m {[0m
+[0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 13 |[39m   loading[33m:[39m () [33m=>[39m [33m<[39m[33mdiv[39m className[33m=[39m[32m"animate-pulse bg-gray-200 h-96 rounded-lg"[39m[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 14 |[39m })[0m
+[0m [90m 15 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx:12:41
+Module not found: Can't resolve './components/FormBuilderDialog'
+[0m [90m 10 |[39m[0m
+[0m [90m 11 |[39m [90m// Dynamic imports for better performance[39m[0m
+[0m[31m[1m>[22m[39m[90m 12 |[39m [36mconst[39m [33mFormBuilderDialog[39m [33m=[39m dynamic(() [33m=>[39m [36mimport[39m([32m'./components/FormBuilderDialog'[39m)[33m,[39m {[0m
+[0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 13 |[39m   loading[33m:[39m () [33m=>[39m [33m<[39m[33mdiv[39m className[33m=[39m[32m"animate-pulse bg-gray-200 h-96 rounded-lg"[39m[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 14 |[39m })[0m
+[0m [90m 15 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx
+Module not found: Can't resolve './components/FormBuilderDialog'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx
+Module not found: Can't resolve './components/FormBuilderDialog'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx:12:41
+Module not found: Can't resolve './components/FormBuilderDialog'
+[0m [90m 10 |[39m[0m
+[0m [90m 11 |[39m [90m// Dynamic imports for better performance[39m[0m
+[0m[31m[1m>[22m[39m[90m 12 |[39m [36mconst[39m [33mFormBuilderDialog[39m [33m=[39m dynamic(() [33m=>[39m [36mimport[39m([32m'./components/FormBuilderDialog'[39m)[33m,[39m {[0m
+[0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 13 |[39m   loading[33m:[39m () [33m=>[39m [33m<[39m[33mdiv[39m className[33m=[39m[32m"animate-pulse bg-gray-200 h-96 rounded-lg"[39m[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 14 |[39m })[0m
+[0m [90m 15 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx:12:41
+Module not found: Can't resolve './components/FormBuilderDialog'
+[0m [90m 10 |[39m[0m
+[0m [90m 11 |[39m [90m// Dynamic imports for better performance[39m[0m
+[0m[31m[1m>[22m[39m[90m 12 |[39m [36mconst[39m [33mFormBuilderDialog[39m [33m=[39m dynamic(() [33m=>[39m [36mimport[39m([32m'./components/FormBuilderDialog'[39m)[33m,[39m {[0m
+[0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 13 |[39m   loading[33m:[39m () [33m=>[39m [33m<[39m[33mdiv[39m className[33m=[39m[32m"animate-pulse bg-gray-200 h-96 rounded-lg"[39m[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 14 |[39m })[0m
+[0m [90m 15 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx
+Module not found: Can't resolve './components/FormBuilderDialog'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx
+Module not found: Can't resolve './components/FormBuilderDialog'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx:12:41
+Module not found: Can't resolve './components/FormBuilderDialog'
+[0m [90m 10 |[39m[0m
+[0m [90m 11 |[39m [90m// Dynamic imports for better performance[39m[0m
+[0m[31m[1m>[22m[39m[90m 12 |[39m [36mconst[39m [33mFormBuilderDialog[39m [33m=[39m dynamic(() [33m=>[39m [36mimport[39m([32m'./components/FormBuilderDialog'[39m)[33m,[39m {[0m
+[0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 13 |[39m   loading[33m:[39m () [33m=>[39m [33m<[39m[33mdiv[39m className[33m=[39m[32m"animate-pulse bg-gray-200 h-96 rounded-lg"[39m[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 14 |[39m })[0m
+[0m [90m 15 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx:12:41
+Module not found: Can't resolve './components/FormBuilderDialog'
+[0m [90m 10 |[39m[0m
+[0m [90m 11 |[39m [90m// Dynamic imports for better performance[39m[0m
+[0m[31m[1m>[22m[39m[90m 12 |[39m [36mconst[39m [33mFormBuilderDialog[39m [33m=[39m dynamic(() [33m=>[39m [36mimport[39m([32m'./components/FormBuilderDialog'[39m)[33m,[39m {[0m
+[0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 13 |[39m   loading[33m:[39m () [33m=>[39m [33m<[39m[33mdiv[39m className[33m=[39m[32m"animate-pulse bg-gray-200 h-96 rounded-lg"[39m[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 14 |[39m })[0m
+[0m [90m 15 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ✓ Compiled in 1386ms
+ ⨯ ./src/app/dashboard/forms/page.tsx
+Module not found: Can't resolve './components/FormBuilderDialog'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx:12:41
+Module not found: Can't resolve './components/FormBuilderDialog'
+[0m [90m 10 |[39m[0m
+[0m [90m 11 |[39m [90m// Dynamic imports for better performance[39m[0m
+[0m[31m[1m>[22m[39m[90m 12 |[39m [36mconst[39m [33mFormBuilderDialog[39m [33m=[39m dynamic(() [33m=>[39m [36mimport[39m([32m'./components/FormBuilderDialog'[39m)[33m,[39m {[0m
+[0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 13 |[39m   loading[33m:[39m () [33m=>[39m [33m<[39m[33mdiv[39m className[33m=[39m[32m"animate-pulse bg-gray-200 h-96 rounded-lg"[39m[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 14 |[39m })[0m
+[0m [90m 15 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx:12:41
+Module not found: Can't resolve './components/FormBuilderDialog'
+[0m [90m 10 |[39m[0m
+[0m [90m 11 |[39m [90m// Dynamic imports for better performance[39m[0m
+[0m[31m[1m>[22m[39m[90m 12 |[39m [36mconst[39m [33mFormBuilderDialog[39m [33m=[39m dynamic(() [33m=>[39m [36mimport[39m([32m'./components/FormBuilderDialog'[39m)[33m,[39m {[0m
+[0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 13 |[39m   loading[33m:[39m () [33m=>[39m [33m<[39m[33mdiv[39m className[33m=[39m[32m"animate-pulse bg-gray-200 h-96 rounded-lg"[39m[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 14 |[39m })[0m
+[0m [90m 15 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx
+Module not found: Can't resolve './components/FormBuilderDialog'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx
+Module not found: Can't resolve './components/FormBuilderDialog'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx:12:41
+Module not found: Can't resolve './components/FormBuilderDialog'
+[0m [90m 10 |[39m[0m
+[0m [90m 11 |[39m [90m// Dynamic imports for better performance[39m[0m
+[0m[31m[1m>[22m[39m[90m 12 |[39m [36mconst[39m [33mFormBuilderDialog[39m [33m=[39m dynamic(() [33m=>[39m [36mimport[39m([32m'./components/FormBuilderDialog'[39m)[33m,[39m {[0m
+[0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 13 |[39m   loading[33m:[39m () [33m=>[39m [33m<[39m[33mdiv[39m className[33m=[39m[32m"animate-pulse bg-gray-200 h-96 rounded-lg"[39m[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 14 |[39m })[0m
+[0m [90m 15 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx:12:41
+Module not found: Can't resolve './components/FormBuilderDialog'
+[0m [90m 10 |[39m[0m
+[0m [90m 11 |[39m [90m// Dynamic imports for better performance[39m[0m
+[0m[31m[1m>[22m[39m[90m 12 |[39m [36mconst[39m [33mFormBuilderDialog[39m [33m=[39m dynamic(() [33m=>[39m [36mimport[39m([32m'./components/FormBuilderDialog'[39m)[33m,[39m {[0m
+[0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 13 |[39m   loading[33m:[39m () [33m=>[39m [33m<[39m[33mdiv[39m className[33m=[39m[32m"animate-pulse bg-gray-200 h-96 rounded-lg"[39m[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 14 |[39m })[0m
+[0m [90m 15 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx
+Module not found: Can't resolve './components/FormBuilderDialog'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx
+Module not found: Can't resolve './components/FormBuilderDialog'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx:12:41
+Module not found: Can't resolve './components/FormBuilderDialog'
+[0m [90m 10 |[39m[0m
+[0m [90m 11 |[39m [90m// Dynamic imports for better performance[39m[0m
+[0m[31m[1m>[22m[39m[90m 12 |[39m [36mconst[39m [33mFormBuilderDialog[39m [33m=[39m dynamic(() [33m=>[39m [36mimport[39m([32m'./components/FormBuilderDialog'[39m)[33m,[39m {[0m
+[0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 13 |[39m   loading[33m:[39m () [33m=>[39m [33m<[39m[33mdiv[39m className[33m=[39m[32m"animate-pulse bg-gray-200 h-96 rounded-lg"[39m[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 14 |[39m })[0m
+[0m [90m 15 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx:12:41
+Module not found: Can't resolve './components/FormBuilderDialog'
+[0m [90m 10 |[39m[0m
+[0m [90m 11 |[39m [90m// Dynamic imports for better performance[39m[0m
+[0m[31m[1m>[22m[39m[90m 12 |[39m [36mconst[39m [33mFormBuilderDialog[39m [33m=[39m dynamic(() [33m=>[39m [36mimport[39m([32m'./components/FormBuilderDialog'[39m)[33m,[39m {[0m
+[0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 13 |[39m   loading[33m:[39m () [33m=>[39m [33m<[39m[33mdiv[39m className[33m=[39m[32m"animate-pulse bg-gray-200 h-96 rounded-lg"[39m[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 14 |[39m })[0m
+[0m [90m 15 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ✓ Compiled in 294ms
+ ⨯ ./src/app/dashboard/forms/page.tsx
+Module not found: Can't resolve './components/FormBuilderDialog'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx:12:41
+Module not found: Can't resolve './components/FormBuilderDialog'
+[0m [90m 10 |[39m[0m
+[0m [90m 11 |[39m [90m// Dynamic imports for better performance[39m[0m
+[0m[31m[1m>[22m[39m[90m 12 |[39m [36mconst[39m [33mFormBuilderDialog[39m [33m=[39m dynamic(() [33m=>[39m [36mimport[39m([32m'./components/FormBuilderDialog'[39m)[33m,[39m {[0m
+[0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 13 |[39m   loading[33m:[39m () [33m=>[39m [33m<[39m[33mdiv[39m className[33m=[39m[32m"animate-pulse bg-gray-200 h-96 rounded-lg"[39m[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 14 |[39m })[0m
+[0m [90m 15 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx:12:41
+Module not found: Can't resolve './components/FormBuilderDialog'
+[0m [90m 10 |[39m[0m
+[0m [90m 11 |[39m [90m// Dynamic imports for better performance[39m[0m
+[0m[31m[1m>[22m[39m[90m 12 |[39m [36mconst[39m [33mFormBuilderDialog[39m [33m=[39m dynamic(() [33m=>[39m [36mimport[39m([32m'./components/FormBuilderDialog'[39m)[33m,[39m {[0m
+[0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 13 |[39m   loading[33m:[39m () [33m=>[39m [33m<[39m[33mdiv[39m className[33m=[39m[32m"animate-pulse bg-gray-200 h-96 rounded-lg"[39m[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 14 |[39m })[0m
+[0m [90m 15 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx
+Module not found: Can't resolve './components/FormBuilderDialog'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx
+Module not found: Can't resolve './components/FormBuilderDialog'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx:12:41
+Module not found: Can't resolve './components/FormBuilderDialog'
+[0m [90m 10 |[39m[0m
+[0m [90m 11 |[39m [90m// Dynamic imports for better performance[39m[0m
+[0m[31m[1m>[22m[39m[90m 12 |[39m [36mconst[39m [33mFormBuilderDialog[39m [33m=[39m dynamic(() [33m=>[39m [36mimport[39m([32m'./components/FormBuilderDialog'[39m)[33m,[39m {[0m
+[0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 13 |[39m   loading[33m:[39m () [33m=>[39m [33m<[39m[33mdiv[39m className[33m=[39m[32m"animate-pulse bg-gray-200 h-96 rounded-lg"[39m[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 14 |[39m })[0m
+[0m [90m 15 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx:12:41
+Module not found: Can't resolve './components/FormBuilderDialog'
+[0m [90m 10 |[39m[0m
+[0m [90m 11 |[39m [90m// Dynamic imports for better performance[39m[0m
+[0m[31m[1m>[22m[39m[90m 12 |[39m [36mconst[39m [33mFormBuilderDialog[39m [33m=[39m dynamic(() [33m=>[39m [36mimport[39m([32m'./components/FormBuilderDialog'[39m)[33m,[39m {[0m
+[0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 13 |[39m   loading[33m:[39m () [33m=>[39m [33m<[39m[33mdiv[39m className[33m=[39m[32m"animate-pulse bg-gray-200 h-96 rounded-lg"[39m[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 14 |[39m })[0m
+[0m [90m 15 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx
+Module not found: Can't resolve './components/FormBuilderDialog'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx
+Module not found: Can't resolve './components/FormBuilderDialog'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx:12:41
+Module not found: Can't resolve './components/FormBuilderDialog'
+[0m [90m 10 |[39m[0m
+[0m [90m 11 |[39m [90m// Dynamic imports for better performance[39m[0m
+[0m[31m[1m>[22m[39m[90m 12 |[39m [36mconst[39m [33mFormBuilderDialog[39m [33m=[39m dynamic(() [33m=>[39m [36mimport[39m([32m'./components/FormBuilderDialog'[39m)[33m,[39m {[0m
+[0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 13 |[39m   loading[33m:[39m () [33m=>[39m [33m<[39m[33mdiv[39m className[33m=[39m[32m"animate-pulse bg-gray-200 h-96 rounded-lg"[39m[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 14 |[39m })[0m
+[0m [90m 15 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx:12:41
+Module not found: Can't resolve './components/FormBuilderDialog'
+[0m [90m 10 |[39m[0m
+[0m [90m 11 |[39m [90m// Dynamic imports for better performance[39m[0m
+[0m[31m[1m>[22m[39m[90m 12 |[39m [36mconst[39m [33mFormBuilderDialog[39m [33m=[39m dynamic(() [33m=>[39m [36mimport[39m([32m'./components/FormBuilderDialog'[39m)[33m,[39m {[0m
+[0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 13 |[39m   loading[33m:[39m () [33m=>[39m [33m<[39m[33mdiv[39m className[33m=[39m[32m"animate-pulse bg-gray-200 h-96 rounded-lg"[39m[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 14 |[39m })[0m
+[0m [90m 15 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ✓ Compiled in 343ms
+ ⨯ ./src/app/dashboard/forms/page.tsx
+Module not found: Can't resolve './components/FormBuilderDialog'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx:12:41
+Module not found: Can't resolve './components/FormBuilderDialog'
+[0m [90m 10 |[39m[0m
+[0m [90m 11 |[39m [90m// Dynamic imports for better performance[39m[0m
+[0m[31m[1m>[22m[39m[90m 12 |[39m [36mconst[39m [33mFormBuilderDialog[39m [33m=[39m dynamic(() [33m=>[39m [36mimport[39m([32m'./components/FormBuilderDialog'[39m)[33m,[39m {[0m
+[0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 13 |[39m   loading[33m:[39m () [33m=>[39m [33m<[39m[33mdiv[39m className[33m=[39m[32m"animate-pulse bg-gray-200 h-96 rounded-lg"[39m[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 14 |[39m })[0m
+[0m [90m 15 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx:12:41
+Module not found: Can't resolve './components/FormBuilderDialog'
+[0m [90m 10 |[39m[0m
+[0m [90m 11 |[39m [90m// Dynamic imports for better performance[39m[0m
+[0m[31m[1m>[22m[39m[90m 12 |[39m [36mconst[39m [33mFormBuilderDialog[39m [33m=[39m dynamic(() [33m=>[39m [36mimport[39m([32m'./components/FormBuilderDialog'[39m)[33m,[39m {[0m
+[0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 13 |[39m   loading[33m:[39m () [33m=>[39m [33m<[39m[33mdiv[39m className[33m=[39m[32m"animate-pulse bg-gray-200 h-96 rounded-lg"[39m[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 14 |[39m })[0m
+[0m [90m 15 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx
+Module not found: Can't resolve './components/FormBuilderDialog'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx
+Module not found: Can't resolve './components/FormBuilderDialog'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx:12:41
+Module not found: Can't resolve './components/FormBuilderDialog'
+[0m [90m 10 |[39m[0m
+[0m [90m 11 |[39m [90m// Dynamic imports for better performance[39m[0m
+[0m[31m[1m>[22m[39m[90m 12 |[39m [36mconst[39m [33mFormBuilderDialog[39m [33m=[39m dynamic(() [33m=>[39m [36mimport[39m([32m'./components/FormBuilderDialog'[39m)[33m,[39m {[0m
+[0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 13 |[39m   loading[33m:[39m () [33m=>[39m [33m<[39m[33mdiv[39m className[33m=[39m[32m"animate-pulse bg-gray-200 h-96 rounded-lg"[39m[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 14 |[39m })[0m
+[0m [90m 15 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx:12:41
+Module not found: Can't resolve './components/FormBuilderDialog'
+[0m [90m 10 |[39m[0m
+[0m [90m 11 |[39m [90m// Dynamic imports for better performance[39m[0m
+[0m[31m[1m>[22m[39m[90m 12 |[39m [36mconst[39m [33mFormBuilderDialog[39m [33m=[39m dynamic(() [33m=>[39m [36mimport[39m([32m'./components/FormBuilderDialog'[39m)[33m,[39m {[0m
+[0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 13 |[39m   loading[33m:[39m () [33m=>[39m [33m<[39m[33mdiv[39m className[33m=[39m[32m"animate-pulse bg-gray-200 h-96 rounded-lg"[39m[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 14 |[39m })[0m
+[0m [90m 15 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx
+Module not found: Can't resolve './components/FormBuilderDialog'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx:12:41
+Module not found: Can't resolve './components/FormBuilderDialog'
+[0m [90m 10 |[39m[0m
+[0m [90m 11 |[39m [90m// Dynamic imports for better performance[39m[0m
+[0m[31m[1m>[22m[39m[90m 12 |[39m [36mconst[39m [33mFormBuilderDialog[39m [33m=[39m dynamic(() [33m=>[39m [36mimport[39m([32m'./components/FormBuilderDialog'[39m)[33m,[39m {[0m
+[0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 13 |[39m   loading[33m:[39m () [33m=>[39m [33m<[39m[33mdiv[39m className[33m=[39m[32m"animate-pulse bg-gray-200 h-96 rounded-lg"[39m[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 14 |[39m })[0m
+[0m [90m 15 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx:12:41
+Module not found: Can't resolve './components/FormBuilderDialog'
+[0m [90m 10 |[39m[0m
+[0m [90m 11 |[39m [90m// Dynamic imports for better performance[39m[0m
+[0m[31m[1m>[22m[39m[90m 12 |[39m [36mconst[39m [33mFormBuilderDialog[39m [33m=[39m dynamic(() [33m=>[39m [36mimport[39m([32m'./components/FormBuilderDialog'[39m)[33m,[39m {[0m
+[0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 13 |[39m   loading[33m:[39m () [33m=>[39m [33m<[39m[33mdiv[39m className[33m=[39m[32m"animate-pulse bg-gray-200 h-96 rounded-lg"[39m[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 14 |[39m })[0m
+[0m [90m 15 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx
+Module not found: Can't resolve './components/FormBuilderDialog'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx
+Module not found: Can't resolve './components/FormBuilderDialog'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx:12:41
+Module not found: Can't resolve './components/FormBuilderDialog'
+[0m [90m 10 |[39m[0m
+[0m [90m 11 |[39m [90m// Dynamic imports for better performance[39m[0m
+[0m[31m[1m>[22m[39m[90m 12 |[39m [36mconst[39m [33mFormBuilderDialog[39m [33m=[39m dynamic(() [33m=>[39m [36mimport[39m([32m'./components/FormBuilderDialog'[39m)[33m,[39m {[0m
+[0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 13 |[39m   loading[33m:[39m () [33m=>[39m [33m<[39m[33mdiv[39m className[33m=[39m[32m"animate-pulse bg-gray-200 h-96 rounded-lg"[39m[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 14 |[39m })[0m
+[0m [90m 15 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx:12:41
+Module not found: Can't resolve './components/FormBuilderDialog'
+[0m [90m 10 |[39m[0m
+[0m [90m 11 |[39m [90m// Dynamic imports for better performance[39m[0m
+[0m[31m[1m>[22m[39m[90m 12 |[39m [36mconst[39m [33mFormBuilderDialog[39m [33m=[39m dynamic(() [33m=>[39m [36mimport[39m([32m'./components/FormBuilderDialog'[39m)[33m,[39m {[0m
+[0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 13 |[39m   loading[33m:[39m () [33m=>[39m [33m<[39m[33mdiv[39m className[33m=[39m[32m"animate-pulse bg-gray-200 h-96 rounded-lg"[39m[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 14 |[39m })[0m
+[0m [90m 15 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx
+Module not found: Can't resolve './components/FormBuilderDialog'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx:12:41
+Module not found: Can't resolve './components/FormBuilderDialog'
+[0m [90m 10 |[39m[0m
+[0m [90m 11 |[39m [90m// Dynamic imports for better performance[39m[0m
+[0m[31m[1m>[22m[39m[90m 12 |[39m [36mconst[39m [33mFormBuilderDialog[39m [33m=[39m dynamic(() [33m=>[39m [36mimport[39m([32m'./components/FormBuilderDialog'[39m)[33m,[39m {[0m
+[0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 13 |[39m   loading[33m:[39m () [33m=>[39m [33m<[39m[33mdiv[39m className[33m=[39m[32m"animate-pulse bg-gray-200 h-96 rounded-lg"[39m[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 14 |[39m })[0m
+[0m [90m 15 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx:12:41
+Module not found: Can't resolve './components/FormBuilderDialog'
+[0m [90m 10 |[39m[0m
+[0m [90m 11 |[39m [90m// Dynamic imports for better performance[39m[0m
+[0m[31m[1m>[22m[39m[90m 12 |[39m [36mconst[39m [33mFormBuilderDialog[39m [33m=[39m dynamic(() [33m=>[39m [36mimport[39m([32m'./components/FormBuilderDialog'[39m)[33m,[39m {[0m
+[0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 13 |[39m   loading[33m:[39m () [33m=>[39m [33m<[39m[33mdiv[39m className[33m=[39m[32m"animate-pulse bg-gray-200 h-96 rounded-lg"[39m[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 14 |[39m })[0m
+[0m [90m 15 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx
+Module not found: Can't resolve './components/FormBuilderDialog'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx
+Module not found: Can't resolve './components/FormBuilderDialog'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx:12:41
+Module not found: Can't resolve './components/FormBuilderDialog'
+[0m [90m 10 |[39m[0m
+[0m [90m 11 |[39m [90m// Dynamic imports for better performance[39m[0m
+[0m[31m[1m>[22m[39m[90m 12 |[39m [36mconst[39m [33mFormBuilderDialog[39m [33m=[39m dynamic(() [33m=>[39m [36mimport[39m([32m'./components/FormBuilderDialog'[39m)[33m,[39m {[0m
+[0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 13 |[39m   loading[33m:[39m () [33m=>[39m [33m<[39m[33mdiv[39m className[33m=[39m[32m"animate-pulse bg-gray-200 h-96 rounded-lg"[39m[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 14 |[39m })[0m
+[0m [90m 15 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx:12:41
+Module not found: Can't resolve './components/FormBuilderDialog'
+[0m [90m 10 |[39m[0m
+[0m [90m 11 |[39m [90m// Dynamic imports for better performance[39m[0m
+[0m[31m[1m>[22m[39m[90m 12 |[39m [36mconst[39m [33mFormBuilderDialog[39m [33m=[39m dynamic(() [33m=>[39m [36mimport[39m([32m'./components/FormBuilderDialog'[39m)[33m,[39m {[0m
+[0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 13 |[39m   loading[33m:[39m () [33m=>[39m [33m<[39m[33mdiv[39m className[33m=[39m[32m"animate-pulse bg-gray-200 h-96 rounded-lg"[39m[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 14 |[39m })[0m
+[0m [90m 15 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx
+Module not found: Can't resolve './components/FormBuilderDialog'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx
+Module not found: Can't resolve './components/FormBuilderDialog'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx:12:41
+Module not found: Can't resolve './components/FormBuilderDialog'
+[0m [90m 10 |[39m[0m
+[0m [90m 11 |[39m [90m// Dynamic imports for better performance[39m[0m
+[0m[31m[1m>[22m[39m[90m 12 |[39m [36mconst[39m [33mFormBuilderDialog[39m [33m=[39m dynamic(() [33m=>[39m [36mimport[39m([32m'./components/FormBuilderDialog'[39m)[33m,[39m {[0m
+[0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 13 |[39m   loading[33m:[39m () [33m=>[39m [33m<[39m[33mdiv[39m className[33m=[39m[32m"animate-pulse bg-gray-200 h-96 rounded-lg"[39m[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 14 |[39m })[0m
+[0m [90m 15 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx:12:41
+Module not found: Can't resolve './components/FormBuilderDialog'
+[0m [90m 10 |[39m[0m
+[0m [90m 11 |[39m [90m// Dynamic imports for better performance[39m[0m
+[0m[31m[1m>[22m[39m[90m 12 |[39m [36mconst[39m [33mFormBuilderDialog[39m [33m=[39m dynamic(() [33m=>[39m [36mimport[39m([32m'./components/FormBuilderDialog'[39m)[33m,[39m {[0m
+[0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 13 |[39m   loading[33m:[39m () [33m=>[39m [33m<[39m[33mdiv[39m className[33m=[39m[32m"animate-pulse bg-gray-200 h-96 rounded-lg"[39m[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 14 |[39m })[0m
+[0m [90m 15 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ✓ Compiled in 960ms
+ ⨯ ./src/app/dashboard/forms/page.tsx
+Module not found: Can't resolve './components/FormBuilderDialog'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx:12:41
+Module not found: Can't resolve './components/FormBuilderDialog'
+[0m [90m 10 |[39m[0m
+[0m [90m 11 |[39m [90m// Dynamic imports for better performance[39m[0m
+[0m[31m[1m>[22m[39m[90m 12 |[39m [36mconst[39m [33mFormBuilderDialog[39m [33m=[39m dynamic(() [33m=>[39m [36mimport[39m([32m'./components/FormBuilderDialog'[39m)[33m,[39m {[0m
+[0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 13 |[39m   loading[33m:[39m () [33m=>[39m [33m<[39m[33mdiv[39m className[33m=[39m[32m"animate-pulse bg-gray-200 h-96 rounded-lg"[39m[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 14 |[39m })[0m
+[0m [90m 15 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx:12:41
+Module not found: Can't resolve './components/FormBuilderDialog'
+[0m [90m 10 |[39m[0m
+[0m [90m 11 |[39m [90m// Dynamic imports for better performance[39m[0m
+[0m[31m[1m>[22m[39m[90m 12 |[39m [36mconst[39m [33mFormBuilderDialog[39m [33m=[39m dynamic(() [33m=>[39m [36mimport[39m([32m'./components/FormBuilderDialog'[39m)[33m,[39m {[0m
+[0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 13 |[39m   loading[33m:[39m () [33m=>[39m [33m<[39m[33mdiv[39m className[33m=[39m[32m"animate-pulse bg-gray-200 h-96 rounded-lg"[39m[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 14 |[39m })[0m
+[0m [90m 15 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx
+Module not found: Can't resolve './components/FormBuilderDialog'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx
+Module not found: Can't resolve './components/FormBuilderDialog'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx:12:41
+Module not found: Can't resolve './components/FormBuilderDialog'
+[0m [90m 10 |[39m[0m
+[0m [90m 11 |[39m [90m// Dynamic imports for better performance[39m[0m
+[0m[31m[1m>[22m[39m[90m 12 |[39m [36mconst[39m [33mFormBuilderDialog[39m [33m=[39m dynamic(() [33m=>[39m [36mimport[39m([32m'./components/FormBuilderDialog'[39m)[33m,[39m {[0m
+[0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 13 |[39m   loading[33m:[39m () [33m=>[39m [33m<[39m[33mdiv[39m className[33m=[39m[32m"animate-pulse bg-gray-200 h-96 rounded-lg"[39m[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 14 |[39m })[0m
+[0m [90m 15 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx:12:41
+Module not found: Can't resolve './components/FormBuilderDialog'
+[0m [90m 10 |[39m[0m
+[0m [90m 11 |[39m [90m// Dynamic imports for better performance[39m[0m
+[0m[31m[1m>[22m[39m[90m 12 |[39m [36mconst[39m [33mFormBuilderDialog[39m [33m=[39m dynamic(() [33m=>[39m [36mimport[39m([32m'./components/FormBuilderDialog'[39m)[33m,[39m {[0m
+[0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 13 |[39m   loading[33m:[39m () [33m=>[39m [33m<[39m[33mdiv[39m className[33m=[39m[32m"animate-pulse bg-gray-200 h-96 rounded-lg"[39m[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 14 |[39m })[0m
+[0m [90m 15 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx
+Module not found: Can't resolve './components/FormBuilderDialog'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx
+Module not found: Can't resolve './components/FormBuilderDialog'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx:12:41
+Module not found: Can't resolve './components/FormBuilderDialog'
+[0m [90m 10 |[39m[0m
+[0m [90m 11 |[39m [90m// Dynamic imports for better performance[39m[0m
+[0m[31m[1m>[22m[39m[90m 12 |[39m [36mconst[39m [33mFormBuilderDialog[39m [33m=[39m dynamic(() [33m=>[39m [36mimport[39m([32m'./components/FormBuilderDialog'[39m)[33m,[39m {[0m
+[0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 13 |[39m   loading[33m:[39m () [33m=>[39m [33m<[39m[33mdiv[39m className[33m=[39m[32m"animate-pulse bg-gray-200 h-96 rounded-lg"[39m[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 14 |[39m })[0m
+[0m [90m 15 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx:12:41
+Module not found: Can't resolve './components/FormBuilderDialog'
+[0m [90m 10 |[39m[0m
+[0m [90m 11 |[39m [90m// Dynamic imports for better performance[39m[0m
+[0m[31m[1m>[22m[39m[90m 12 |[39m [36mconst[39m [33mFormBuilderDialog[39m [33m=[39m dynamic(() [33m=>[39m [36mimport[39m([32m'./components/FormBuilderDialog'[39m)[33m,[39m {[0m
+[0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 13 |[39m   loading[33m:[39m () [33m=>[39m [33m<[39m[33mdiv[39m className[33m=[39m[32m"animate-pulse bg-gray-200 h-96 rounded-lg"[39m[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 14 |[39m })[0m
+[0m [90m 15 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx
+Module not found: Can't resolve './components/FormBuilderDialog'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx
+Module not found: Can't resolve './components/FormBuilderDialog'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx:12:41
+Module not found: Can't resolve './components/FormBuilderDialog'
+[0m [90m 10 |[39m[0m
+[0m [90m 11 |[39m [90m// Dynamic imports for better performance[39m[0m
+[0m[31m[1m>[22m[39m[90m 12 |[39m [36mconst[39m [33mFormBuilderDialog[39m [33m=[39m dynamic(() [33m=>[39m [36mimport[39m([32m'./components/FormBuilderDialog'[39m)[33m,[39m {[0m
+[0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 13 |[39m   loading[33m:[39m () [33m=>[39m [33m<[39m[33mdiv[39m className[33m=[39m[32m"animate-pulse bg-gray-200 h-96 rounded-lg"[39m[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 14 |[39m })[0m
+[0m [90m 15 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/dashboard/forms/page.tsx:12:41
+Module not found: Can't resolve './components/FormBuilderDialog'
+[0m [90m 10 |[39m[0m
+[0m [90m 11 |[39m [90m// Dynamic imports for better performance[39m[0m
+[0m[31m[1m>[22m[39m[90m 12 |[39m [36mconst[39m [33mFormBuilderDialog[39m [33m=[39m dynamic(() [33m=>[39m [36mimport[39m([32m'./components/FormBuilderDialog'[39m)[33m,[39m {[0m
+[0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 13 |[39m   loading[33m:[39m () [33m=>[39m [33m<[39m[33mdiv[39m className[33m=[39m[32m"animate-pulse bg-gray-200 h-96 rounded-lg"[39m[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 14 |[39m })[0m
+[0m [90m 15 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+

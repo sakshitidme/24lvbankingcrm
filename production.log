@@ -1,0 +1,133 @@
+
+> 24lv-app-v2@0.1.0 start
+> next start
+
+   ▲ Next.js 15.3.4
+   - Local:        http://localhost:53392
+   - Network:      http://172.17.0.2:53392
+
+ ✓ Starting...
+ ✓ Ready in 461ms
+[next-auth][error][JWT_SESSION_ERROR] 
+https://next-auth.js.org/errors#jwt_session_error decryption operation failed {
+  message: 'decryption operation failed',
+  stack: 's: decryption operation failed\n' +
+    '    at /workspace/24lv-deploy-23-7-2025/.next/server/chunks/789.js:34:28645\n' +
+    '    at t.default (/workspace/24lv-deploy-23-7-2025/.next/server/chunks/789.js:34:28672)\n' +
+    '    at t.flattenedDecrypt (/workspace/24lv-deploy-23-7-2025/.next/server/chunks/789.js:17:30809)\n' +
+    '    at async t.compactDecrypt (/workspace/24lv-deploy-23-7-2025/.next/server/chunks/789.js:25:87270)\n' +
+    '    at async t.jwtDecrypt (/workspace/24lv-deploy-23-7-2025/.next/server/chunks/789.js:17:383)\n' +
+    '    at async Object.f [as decode] (/workspace/24lv-deploy-23-7-2025/.next/server/chunks/789.js:9:12997)\n' +
+    '    at async Object.o (/workspace/24lv-deploy-23-7-2025/.next/server/chunks/789.js:25:68459)\n' +
+    '    at async g (/workspace/24lv-deploy-23-7-2025/.next/server/chunks/789.js:25:53220)\n' +
+    '    at async a (/workspace/24lv-deploy-23-7-2025/.next/server/chunks/789.js:17:22158)\n' +
+    '    at async e.length.t (/workspace/24lv-deploy-23-7-2025/.next/server/chunks/789.js:17:23601)',
+  name: 's'
+}
+prisma:query SELECT "public"."users"."id", "public"."users"."email", "public"."users"."emailVerified", "public"."users"."firstName", "public"."users"."lastName", "public"."users"."password", "public"."users"."phoneNo", "public"."users"."alternatePhone", "public"."users"."designation", "public"."users"."gender", "public"."users"."fullAddress", "public"."users"."city", "public"."users"."state", "public"."users"."zipCode", "public"."users"."avatar", "public"."users"."dob", "public"."users"."permissions", "public"."users"."isActive", "public"."users"."otp", "public"."users"."otpExpireAt", "public"."users"."walletBalance", "public"."users"."lastLoginDate", "public"."users"."createdAt", "public"."users"."updatedAt", "public"."users"."bankId", "public"."users"."bankIds" FROM "public"."users" WHERE ("public"."users"."email" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."banks"."id", "public"."banks"."name", "public"."banks"."createdAt", "public"."banks"."updatedAt", "public"."banks"."userId" FROM "public"."banks" WHERE "public"."banks"."id" IN ($1) OFFSET $2
+prisma:query UPDATE "public"."users" SET "lastLoginDate" = $1, "updatedAt" = $2 WHERE ("public"."users"."id" = $3 AND 1=1) RETURNING "public"."users"."id", "public"."users"."email", "public"."users"."emailVerified", "public"."users"."firstName", "public"."users"."lastName", "public"."users"."password", "public"."users"."phoneNo", "public"."users"."alternatePhone", "public"."users"."designation", "public"."users"."gender", "public"."users"."fullAddress", "public"."users"."city", "public"."users"."state", "public"."users"."zipCode", "public"."users"."avatar", "public"."users"."dob", "public"."users"."permissions", "public"."users"."isActive", "public"."users"."otp", "public"."users"."otpExpireAt", "public"."users"."walletBalance", "public"."users"."lastLoginDate", "public"."users"."createdAt", "public"."users"."updatedAt", "public"."users"."bankId", "public"."users"."bankIds"
+Creating TRPC context: { NODE_ENV: 'production', MOCK_AUTH: 'false' }
+Using real session: {
+  user: {
+    name: undefined,
+    email: 'admin@24lv.com',
+    image: undefined,
+    id: 'test-user-123',
+    permissions: [ 'admin' ],
+    bankId: 'test-bank-123',
+    bank: {
+      id: 'test-bank-123',
+      name: 'Test Bank',
+      createdAt: '2025-07-23T12:38:02.691Z',
+      updatedAt: '2025-07-23T12:38:02.691Z',
+      userId: null
+    }
+  }
+}
+prisma:query SELECT COUNT(*) AS "_count._all" FROM (SELECT "public"."requests"."id" FROM "public"."requests" WHERE 1=1 OFFSET $1) AS "sub"
+prisma:query SELECT COUNT(*) AS "_count._all" FROM (SELECT "public"."requests"."id" FROM "public"."requests" WHERE "public"."requests"."requestStatus" = $1 OFFSET $2) AS "sub"
+prisma:query SELECT COUNT(*) AS "_count._all" FROM (SELECT "public"."requests"."id" FROM "public"."requests" WHERE "public"."requests"."requestStatus" = $1 OFFSET $2) AS "sub"
+prisma:query SELECT COUNT(*) AS "_count._all" FROM (SELECT "public"."requests"."id" FROM "public"."requests" WHERE "public"."requests"."requestStatus" = $1 OFFSET $2) AS "sub"
+prisma:query SELECT COUNT(*) AS "_count._all" FROM (SELECT "public"."requests"."id" FROM "public"."requests" WHERE "public"."requests"."requestStatus" = $1 OFFSET $2) AS "sub"
+Creating TRPC context: { NODE_ENV: 'production', MOCK_AUTH: 'false' }
+Using real session: {
+  user: {
+    name: undefined,
+    email: 'admin@24lv.com',
+    image: undefined,
+    id: 'test-user-123',
+    permissions: [ 'admin' ],
+    bankId: 'test-bank-123',
+    bank: {
+      id: 'test-bank-123',
+      name: 'Test Bank',
+      createdAt: '2025-07-23T12:38:02.691Z',
+      updatedAt: '2025-07-23T12:38:02.691Z',
+      userId: null
+    }
+  }
+}
+prisma:query SELECT COUNT(*) AS "_count._all" FROM (SELECT "public"."requests"."id" FROM "public"."requests" WHERE 1=1 OFFSET $1) AS "sub"
+prisma:query SELECT "public"."forms"."id", "public"."forms"."formName", "public"."forms"."fields", "public"."forms"."isDefaultForm", "public"."forms"."createdAt", "public"."forms"."updatedAt", "public"."forms"."bankId", "public"."forms"."userId", COALESCE("aggr_selection_0_Request"."_aggr_count_requests", 0) AS "_aggr_count_requests" FROM "public"."forms" LEFT JOIN (SELECT "public"."requests"."formId", COUNT(*) AS "_aggr_count_requests" FROM "public"."requests" WHERE 1=1 GROUP BY "public"."requests"."formId") AS "aggr_selection_0_Request" ON ("public"."forms"."id" = "aggr_selection_0_Request"."formId") WHERE 1=1 ORDER BY "public"."forms"."createdAt" DESC LIMIT $1 OFFSET $2
+prisma:query SELECT COUNT(*) AS "_count._all" FROM (SELECT "public"."forms"."id" FROM "public"."forms" WHERE 1=1 OFFSET $1) AS "sub"
+prisma:query SELECT COUNT(*) AS "_count._all" FROM (SELECT "public"."users"."id" FROM "public"."users" WHERE 1=1 OFFSET $1) AS "sub"
+prisma:query SELECT "public"."users"."id", "public"."users"."email", "public"."users"."emailVerified", "public"."users"."firstName", "public"."users"."lastName", "public"."users"."password", "public"."users"."phoneNo", "public"."users"."alternatePhone", "public"."users"."designation", "public"."users"."gender", "public"."users"."fullAddress", "public"."users"."city", "public"."users"."state", "public"."users"."zipCode", "public"."users"."avatar", "public"."users"."dob", "public"."users"."permissions", "public"."users"."isActive", "public"."users"."otp", "public"."users"."otpExpireAt", "public"."users"."walletBalance", "public"."users"."lastLoginDate", "public"."users"."createdAt", "public"."users"."updatedAt", "public"."users"."bankId", "public"."users"."bankIds" FROM "public"."users" WHERE 1=1 ORDER BY "public"."users"."createdAt" DESC LIMIT $1 OFFSET $2
+prisma:query SELECT "public"."banks"."id", "public"."banks"."name", "public"."banks"."createdAt", "public"."banks"."updatedAt", "public"."banks"."userId" FROM "public"."banks" WHERE "public"."banks"."id" IN ($1) OFFSET $2
+prisma:query SELECT "public"."users"."id", "public"."users"."firstName", "public"."users"."lastName", "public"."users"."email" FROM "public"."users" WHERE "public"."users"."id" IN ($1) OFFSET $2
+prisma:query SELECT "public"."requests"."id", "public"."requests"."fields", "public"."requests"."formId", "public"."requests"."forWhom", "public"."requests"."requestStatus", "public"."requests"."createdAt", "public"."requests"."updatedAt", "public"."requests"."createdBy", "public"."requests"."assignedValuator", "public"."requests"."assignedAdvocate", "public"."requests"."bankId", "public"."requests"."bankBranchesId" FROM "public"."requests" WHERE 1=1 ORDER BY "public"."requests"."createdAt" DESC LIMIT $1 OFFSET $2
+Creating TRPC context: { NODE_ENV: 'production', MOCK_AUTH: 'false' }
+Using real session: {
+  user: {
+    name: undefined,
+    email: 'admin@24lv.com',
+    image: undefined,
+    id: 'test-user-123',
+    permissions: [ 'admin' ],
+    bankId: 'test-bank-123',
+    bank: {
+      id: 'test-bank-123',
+      name: 'Test Bank',
+      createdAt: '2025-07-23T12:38:02.691Z',
+      updatedAt: '2025-07-23T12:38:02.691Z',
+      userId: null
+    }
+  }
+}
+prisma:query SELECT 1
+prisma:query SELECT "public"."forms"."id", "public"."forms"."formName", "public"."forms"."fields", "public"."forms"."isDefaultForm", "public"."forms"."createdAt", "public"."forms"."updatedAt", "public"."forms"."bankId", "public"."forms"."userId", COALESCE("aggr_selection_0_Request"."_aggr_count_requests", 0) AS "_aggr_count_requests" FROM "public"."forms" LEFT JOIN (SELECT "public"."requests"."formId", COUNT(*) AS "_aggr_count_requests" FROM "public"."requests" WHERE 1=1 GROUP BY "public"."requests"."formId") AS "aggr_selection_0_Request" ON ("public"."forms"."id" = "aggr_selection_0_Request"."formId") WHERE 1=1 ORDER BY "public"."forms"."createdAt" DESC LIMIT $1 OFFSET $2
+prisma:query SELECT 1
+prisma:query SELECT 1
+prisma:query SELECT "public"."users"."id", "public"."users"."firstName", "public"."users"."lastName", "public"."users"."email" FROM "public"."users" WHERE "public"."users"."id" IN ($1) OFFSET $2
+prisma:query SELECT COUNT(*) AS "_count._all" FROM (SELECT "public"."forms"."id" FROM "public"."forms" WHERE 1=1 OFFSET $1) AS "sub"
+prisma:query SELECT COUNT(*) AS "_count._all" FROM (SELECT "public"."banks"."id" FROM "public"."banks" WHERE 1=1 OFFSET $1) AS "sub"
+prisma:query SELECT "public"."banks"."id", "public"."banks"."name", "public"."banks"."createdAt", "public"."banks"."updatedAt", "public"."banks"."userId", COALESCE("aggr_selection_0_User"."_aggr_count_users", 0) AS "_aggr_count_users", COALESCE("aggr_selection_1_Request"."_aggr_count_requests", 0) AS "_aggr_count_requests", COALESCE("aggr_selection_2_Form"."_aggr_count_forms", 0) AS "_aggr_count_forms" FROM "public"."banks" LEFT JOIN (SELECT "public"."users"."bankId", COUNT(*) AS "_aggr_count_users" FROM "public"."users" WHERE 1=1 GROUP BY "public"."users"."bankId") AS "aggr_selection_0_User" ON ("public"."banks"."id" = "aggr_selection_0_User"."bankId") LEFT JOIN (SELECT "public"."requests"."bankId", COUNT(*) AS "_aggr_count_requests" FROM "public"."requests" WHERE 1=1 GROUP BY "public"."requests"."bankId") AS "aggr_selection_1_Request" ON ("public"."banks"."id" = "aggr_selection_1_Request"."bankId") LEFT JOIN (SELECT "public"."forms"."bankId", COUNT(*) AS "_aggr_count_forms" FROM "public"."forms" WHERE 1=1 GROUP BY "public"."forms"."bankId") AS "aggr_selection_2_Form" ON ("public"."banks"."id" = "aggr_selection_2_Form"."bankId") WHERE 1=1 ORDER BY "public"."banks"."createdAt" DESC LIMIT $1 OFFSET $2
+prisma:query SELECT "public"."bank_branches"."id", "public"."bank_branches"."name", "public"."bank_branches"."address", "public"."bank_branches"."city", "public"."bank_branches"."state", "public"."bank_branches"."zipCode", "public"."bank_branches"."createdAt", "public"."bank_branches"."updatedAt", "public"."bank_branches"."bankId", "public"."bank_branches"."userId" FROM "public"."bank_branches" WHERE "public"."bank_branches"."bankId" IN ($1) OFFSET $2
+Creating TRPC context: { NODE_ENV: 'production', MOCK_AUTH: 'false' }
+Using real session: {
+  user: {
+    name: undefined,
+    email: 'admin@24lv.com',
+    image: undefined,
+    id: 'test-user-123',
+    permissions: [ 'admin' ],
+    bankId: 'test-bank-123',
+    bank: {
+      id: 'test-bank-123',
+      name: 'Test Bank',
+      createdAt: '2025-07-23T12:38:02.691Z',
+      updatedAt: '2025-07-23T12:38:02.691Z',
+      userId: null
+    }
+  }
+}
+prisma:query SELECT 1
+prisma:query SELECT 1
+prisma:query SELECT 1
+prisma:query SELECT 1
+prisma:query SELECT COUNT(*) AS "_count._all" FROM (SELECT "public"."requests"."id" FROM "public"."requests" WHERE "public"."requests"."requestStatus" = $1 OFFSET $2) AS "sub"
+prisma:query SELECT 1
+prisma:query SELECT COUNT(*) AS "_count._all" FROM (SELECT "public"."requests"."id" FROM "public"."requests" WHERE 1=1 OFFSET $1) AS "sub"
+prisma:query SELECT COUNT(*) AS "_count._all" FROM (SELECT "public"."requests"."id" FROM "public"."requests" WHERE "public"."requests"."requestStatus" = $1 OFFSET $2) AS "sub"
+prisma:query SELECT COUNT(*) AS "_count._all" FROM (SELECT "public"."requests"."id" FROM "public"."requests" WHERE "public"."requests"."requestStatus" = $1 OFFSET $2) AS "sub"
+prisma:query SELECT COUNT(*) AS "_count._all" FROM (SELECT "public"."requests"."id" FROM "public"."requests" WHERE "public"."requests"."requestStatus" = $1 OFFSET $2) AS "sub"

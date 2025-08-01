@@ -1,0 +1,122 @@
+/* Professional Theme Improvements - No Glass Effects */
+
+/* Solid Card Styling */
+.card-solid {
+  background: hsl(var(--color-card)) !important;
+  border: 1px solid hsl(var(--color-border));
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  backdrop-filter: none !important;
+}
+
+/* Professional Button Styling */
+.btn-professional {
+  background: solid !important;
+  backdrop-filter: none !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-professional:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px -2px rgba(0, 0, 0, 0.1);
+}
+
+/* Solid Sidebar Styling */
+.sidebar-solid {
+  background: #0f172a !important;
+  backdrop-filter: none !important;
+  border-right: 1px solid #334155;
+}
+
+/* Professional Navigation Items */
+.nav-item-solid {
+  background: solid !important;
+  backdrop-filter: none !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-item-solid:hover {
+  background: #1e293b !important;
+}
+
+.nav-item-solid.active {
+  background: #2563eb !important;
+  box-shadow: 0 2px 4px rgba(37, 99, 235, 0.2);
+}
+
+/* Solid Avatar Styling */
+.avatar-solid {
+  background: #2563eb !important;
+  backdrop-filter: none !important;
+}
+
+/* Professional Form Elements */
+.form-solid input,
+.form-solid textarea,
+.form-solid select {
+  background: hsl(var(--color-background)) !important;
+  border: 1px solid hsl(var(--color-border));
+  backdrop-filter: none !important;
+}
+
+.form-solid input:focus,
+.form-solid textarea:focus,
+.form-solid select:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+/* Solid Badge Styling */
+.badge-solid {
+  background: #2563eb !important;
+  color: white !important;
+  backdrop-filter: none !important;
+}
+
+/* Professional Dropdown Styling */
+.dropdown-solid {
+  background: hsl(var(--color-background)) !important;
+  border: 1px solid hsl(var(--color-border));
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  backdrop-filter: none !important;
+}
+
+/* Remove any remaining glass effects */
+* {
+  backdrop-filter: none !important;
+}
+
+*[class*="backdrop-blur"] {
+  backdrop-filter: none !important;
+}
+
+*[class*="bg-opacity"] {
+  background-opacity: 1 !important;
+}
+
+/* Professional hover states */
+.hover-professional:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px -2px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
+}
+
+/* Solid color palette overrides */
+.bg-primary-solid {
+  background-color: #2563eb !important;
+}
+
+.bg-secondary-solid {
+  background-color: #64748b !important;
+}
+
+.bg-success-solid {
+  background-color: #059669 !important;
+}
+
+.bg-warning-solid {
+  background-color: #d97706 !important;
+}
+
+.bg-danger-solid {
+  background-color: #dc2626 !important;
+}
